@@ -4,7 +4,7 @@
 body{
   background-color: #FFFFFF;
   /*font-family: 'Quicksand';*/
-  background: url("libraries/bg.jpg") no-repeat center fixed;
+  background: url("libraries/bg_2.jpg") no-repeat center fixed;
   background-size: cover;
   /**font-weight: 100;
   line-height: 0.5;**/
@@ -13,21 +13,8 @@ body{
 }
 
 ul {
-  /*position: fixed;
-  top: 0;
-  width: 100%;
-  justify-content;
-  list-style-type: circle;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #FCD744;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: #FA7B53;
-  border-width: 3px;*/
-  margin: 0;
-  background-color: #FCD744;
+  background-color: white;/*#FCD744;*/
   border-radius: 10px;
   border-style: solid;
   border-color: #FA7B53;
@@ -114,10 +101,7 @@ p1{
 
 /* Class to change the font in black.
    Used in "Jullie" in Heading of the blog */
-.color_change{
-  /*color: #FFA22A;*/
-  color: #000000;
-}
+
 
 
 
@@ -141,6 +125,7 @@ h4{
 h2{
   font-family: "Quicksand";
   font-size: 4.3vmin;
+  font-weight: 800;
   text-decoration: underline;
   font-weight: bold;
   color: #61B087;
@@ -164,6 +149,7 @@ p {
   margin: 10px;
   color: #000000;
 }
+
 
 h3 {
   font-family: 'Comfortaa';
@@ -189,6 +175,10 @@ h3 {
 
 /* Class to change the font in black.
    Used in "Jullie" in Heading of the blog */
+.smaller{
+  font-family: "Open Sans";
+  font-size: 1.5vmin;
+}
 .color_change {
   color: #000000;
 }
@@ -200,6 +190,9 @@ h3 {
 }
 .color_green{
   color: #3FB75E;
+}
+.color_white{
+  color: #FFFFFF;
 }
 
 .menubar {
@@ -494,3 +487,5 @@ a:active{
   border-radius: 20px;
   border-color: gold;
 }
+
+/**
