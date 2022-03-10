@@ -20,7 +20,18 @@ ul {
   border-color: #FA7B53;
   border-width: 3px;
 }
-
+/**a li{
+  display:block;
+  color: blue;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration:underline;
+  font-family: "Open Sans";
+}
+a li:hover{
+  background-color:gold;
+  border-radius: 5px;
+} **/
 li a {
   display: block;
   color: white;
@@ -30,6 +41,10 @@ li a {
   font-family: "Comfortaa";
 }
 
+a li:hover{
+  background-color: gold;
+  border-radius: 10px;
+}
 li a:hover {
   background-color: #BBD444;
   border-radius: 5px;
