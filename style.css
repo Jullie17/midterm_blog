@@ -34,6 +34,7 @@ li a:hover:not(.active) {
   background-color: #BBD444;
   border-radius: 5px;
 }
+
 a, a:default, a:visited, a:active{
   color: white;
   text-decoration: none;
@@ -64,6 +65,7 @@ a, a:default, a:visited, a:active{
   color: navy;
   text-decoration: none;
 }
+
 .flex-container a:hover:not(.active){
   color: white;
 }
@@ -233,6 +235,7 @@ h3 {
   border-radius: 20px;
   border-color: gold;
 }
+
 a:active{
   color: gold;
 }
@@ -248,7 +251,8 @@ a:active{
 .newContainer ul {
   margin: 0;
 }
-.newLeftSection li{
+
+.newContainer li{
   margin: 0;
   font-family: 'Open Sans';
   color: black;
@@ -262,6 +266,7 @@ a:active{
   padding: 10px;
   background-color: white;
   border-radius: 10px;
+  border: 3px solid white;
 }
 
 .newContainer {
@@ -274,6 +279,7 @@ a:active{
   border-width: 3px;
   border-color: #FCD744;
 }
+
 .foodimgContainer{
   display: flex;
   padding: 10px;
@@ -291,8 +297,9 @@ a:active{
 .foodLeftSection{
   width: 50%;
 }
+
 .newRightSection {
-  width: 70%; /* Used to divide the space in the "newContainer" */
+  /* width: 70%; */ /* Used to divide the space in the "newContainer" */ */
   display: flex;
   gap: 15px; /* Used to place gaps between the three columns on the right side of "newRightColumn" */
 }
@@ -324,22 +331,27 @@ a:active{
   border-color: white;
   border-width: 3px;
 }
+
 .foodRightSection img{
   width: 45%;
 }
+
 .newLeftSection img {
   width: 100%; /* PROF NOTE: We use this to make sure any images in our columns are scaled to the full size of the column */
   border-style: dashed;
-  border-color: solid;
+  /* border-color: solid; */
   border-radius: 20px;
   border-color: white;
   border-width: 3px;
 }
-.newRightColumn a:hover:not(.active){
+
+.newRightColumn a:hover img, .newRightColumn a:hover p{
   border-style: solid;
-  border-radius: 20px;
+  border-width: 3px;
+  /* border-radius: 20px; */
   border-color: gold;
 }
+
 /*.rectangular{
   width:100%;
 }
