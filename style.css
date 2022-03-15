@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
 }
+
 body{
   background-color: #FFFFFF;
   /*font-family: 'Quicksand';*/
@@ -375,15 +376,11 @@ a:active{
 }*/
 
 
-/*.newLeftSection a:hover:not(.active){
-  border-style: solid;
-  border-radius: 20px;
-  border-color: gold;
-}*/
 
 .hr_dot{
   border-top: 10px dotted;
   color:#3D90D1;
+  border-bottom: 0;
 }
 .hr_dashed{
   border-top: 10px dashed;
