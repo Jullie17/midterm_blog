@@ -382,9 +382,10 @@ a:active{
   color:#3D90D1;
   border-bottom: 0;
 }
-.hr_dashed{
-  border-top: 10px dashed;
+.hr_dotp{
+  border-top: 10px dotted;
   color: #842D73;
+  border-bottom: 0;
 }
 .hr_solid{
   border-top: 5px solid;
